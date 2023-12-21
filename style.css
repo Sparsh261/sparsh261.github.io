@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ;
+}
+body{
+    background-color: #080808;
+    color: #fff;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("my_pic.jpg");
+    background-position: 80% 80%;
+    background-size: 350px;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.nav-logo{
+    font-size: 50px;
+    font-weight: 800;
+    margin-right:1%;
+}
+#letterS,#letterC{
+    color: red;
+    font-size: 70px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 800;
+    
+}
+.nav-links a:hover{
+    border-bottom: 1px solid red;
+    transition: 0.8s;
+}
+.main-text{
+    font-size: 60px;
+    padding: 10% 10%;
+}
+#letterJ,#letterD{
+    color: #ff004f;
+    font-size: 50px;
+}
+
+
+
+.about{
+    width: 90%;
+    margin: 2% 5%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #262626;
+}
+.row1{
+    width: 30%;
+}
+.row1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.row2{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 0.5px solid green; */
+}
+#about-me{
+    font-size:50px;
+    border-bottom:0.5px solid #ff004f;
+}
+.row21{
+    width: 80%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.row21-head{
+    list-style-type:none;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.row21-head:hover{
+    border-bottom: 1px solid red;
+    transition: 0.8s;
+    transform: rotateY(50deg) scale(1.5);
+}
+.row21-head:active{
+    transform: rotateZ(-50deg);
+    transition: 0.8s;
+}
+.row21-head-content{
+    line-height: 30px;
+    /* color:rgb(242, 60, 60); */
+    list-style: square;
+}
+.row21-head-content-sub{
+    color:rgb(248, 117, 117);
+    margin-left: 20px;
+}
+.certificates{
+   width: 90%;
+   margin: 10% 5%;
+   padding: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: #262626;
+
+}
+.dropdown button{
+    width: 500%;
+    background-color: red;
+}
+.dropdown img{
+    height: 50%;
+    width: 50%;
+}
