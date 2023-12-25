@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav"></div>
+    <nav>
+        <div class="nav-logo">
+            <span id="letterS">S</span>PARSH<span id="letterC">C</span>HAUHAN
+        </div>
+        <div id="nav-links">
+            <a href="#nav">Home </a>
+            <a href="#about">About me</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact me</a>
+        </div>
+    </nav>
+
+
+    <div class="main">  
+        
+        <div class="main-text">
+            Hi there...<br>
+            I'm a <span id="letterJ">J</span>ava <span id="letterD">D</span>eveloper
+        </div>
+    </div>
+
+
+
+
+    <div id="about"></div>
+    
+    
+    
+    <div class="about">
+        <div class="row1">
+            <img src="Picture.jpg" alt="">
+        </div>
+        <div class="row2">
+            <p id="about-me">About me</p><br>
+            <p>I would like to work with your organization.</p>
+            <div class="row21">
+                <ul id='skills'>
+                    <li class="row21-head" onclick="show('sk')">Skills</li>
+                    <li class="row21-head-content sk ">Html & Css</li>
+                    <li class="row21-head-content sk">Pyhton</li>
+                    <li class="row21-head-content sk">Java</li>
+                    <li class="row21-head-content sk">Java Script</li>
+                </ul>
+                <ul id="education">
+                    <li class="row21-head" onclick="show('ed')">Education</li>
+
+                    <li class="row21-head-content ed"> Master of Computer Applications
+                        <ul>
+                            <li class="row21-head-content-sub ed">will pass in 2025</li>
+                        </ul>
+                    </li>
+                    <li class="row21-head-content ed">BSc.(HONS.)Mathematics
+                        <ul>
+                            <li class="row21-head-content-sub ed">with 8.6 cgpa 2023</li>
+                        </ul>
+                    </li>
+                    <li class="row21-head-content ed">12<sup>th</sup>
+                        <ul>
+                            <li class="row21-head-content-sub ed">with 96% in 2020 </li>
+                        </ul>
+                    </li>
+                    <li class="row21-head-content ed ">12<sup>th</sup>
+                        <ul>
+                            <li class="row21-head-content-sub ed">with 93% in 2018</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="certificates"></div>
+
+    <h3 id="certificate-heading">Certificates</h3>
+
+    <div class=" certificates">
+
+        <!-- All css in inline css not in style.css  ................from Bootstrap-->
+
+        <div class="card certificate-card " style="width: 18rem;">
+            <img class="card-img-top" src="Bootstrap.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-dark">Bootstrap</h5>
+                <p class="card-text text-dark">Bootstrap 5 </p>
+                <!-- <a href="#" class="btn btn-primary">Open certificate</a> -->
+            </div>
+        </div>
+
+        <div class="card certificate-card" style="width: 18rem;">
+            <img class="card-img-top" src="Python.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-dark">Python</h5>
+                <p class="card-text text-dark">Data Analysis</p>
+                <!-- <a href="#" class="btn btn-primary">Open certificate</a> -->
+            </div>
+        </div>
+
+        <div class="card certificate-card" style="width: 18rem;">
+            <img class="card-img-top" src="Bootstrap.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-dark">SoloLearn</h5>
+                <p class="card-text text-dark">Html&Css</p>
+                <!-- <a href="#" class="btn btn-primary">Open certificate</a> -->
+            </div>
+        </div>
+        <!-- After this css in style.css -->
+    </div>
+
+
+
+
+
+
+
+    <div id="projects"></div>
+    <h3 id="project-heading">Projects</h3>
+
+    <div class="projects">
+
+            <div class="btn-group dropright  " id="project1">
+                <button type="button" class="btn btn-secondary dropdown-toggle btn-block" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Video Calling web application
+                </button>
+                <div class="dropdown-menu ">
+                    <a href="https://sparsh261.github.io/WebChat_App/" target="_blank">visit Website</a> 
+                    <button class="btn btn-primary" >WebRTC</button>
+                    <button class="btn btn-primary" >Java Script</button>
+                </div>
+            </div>
+
+
+            <div class="btn-group dropright  " id="project1">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    E-commerce Website
+                </button>
+                <div class="dropdown-menu ">  
+                    <a href="https://sparsh261.github.io/Projects/" target="_blank">visit Website</a>              
+                    <button class="btn btn-primary" >Html</button>
+                    <button class="btn btn-primary" >Css</button>
+                </div>
+            </div>
+        
+    </div>
+
+
+
+
+
+    <div id="contact"></div>
+    <div id="contact-me">
+        <div id="contact-links">
+            <h1>Contact me</h1>
+            <p><i class="fa-solid fa-phone"></i>9667364640</p>
+            <p><i class="fa-solid fa-envelope"></i>sparsh112@gmail.com</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <a href="Demo.txt" class="btn btn2" download>Download Cv</a>
+        </div>
+        <div id="contact-form">
+            <form action="">
+                <label for="name" id="labelName">Name</label>
+                <input type="text"  placeholder="Your name" id="name" required>
+                <label for="email">E-mail</label>
+                <input type="email"  placeholder="Your E-mail" id="email" required>
+                <label for="Message">Message</label>
+                <textarea cols="50" rows="6" id="Message" placeholder="Your message"></textarea><br>
+                <button class="btn btn-danger">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="copyright">
+        <p><i class="fa-regular fa-copyright" id="copyrightSymbol"></i>Made by <i class="fa-solid fa-dollar-sign" ></i>parsh Chauhan</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js">    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
